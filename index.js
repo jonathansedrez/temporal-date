@@ -6,4 +6,5 @@ console.log("Current date & time:", now.toString());
 const today = Temporal.PlainDate.from("2025-08-12");
 console.log("Today:", today.toString(), today, typeof today);
 
-
+const tomorrow = Temporal.PlainDate.from(today).add({ days: 1 });
+console.log("Tomorrow:", tomorrow.toString(), tomorrow, typeof tomorrow);
