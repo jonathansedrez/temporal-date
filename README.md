@@ -1,0 +1,1 @@
+- Temporal objects are immutable — methods like .add() return a new object.
