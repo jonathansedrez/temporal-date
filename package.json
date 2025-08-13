@@ -1,0 +1,16 @@
+{
+  "name": "temporal-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.5.1"
+  }
+}
