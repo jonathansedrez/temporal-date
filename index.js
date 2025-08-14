@@ -8,3 +8,7 @@ console.log("Today:", today.toString(), today, typeof today);
 
 const tomorrow = Temporal.PlainDate.from(today).add({ days: 1 });
 console.log("Tomorrow:", tomorrow.toString(), tomorrow, typeof tomorrow);
+
+const nextWeek = Temporal.PlainDate.from("2025-08-13").add({ days: 7 });
+const diff = nextWeek.since(Temporal.PlainDate.from("2025-08-13"));
+console.log(`Days between: ${diff.days}`);
